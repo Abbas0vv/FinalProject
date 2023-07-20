@@ -1,5 +1,5 @@
 .card-section {
-    width: 60.5%;
+    width: 60%;
     margin:56px auto 0 auto;
 
     .card-section-title {
@@ -18,11 +18,15 @@
         width: 368px;
         height: 296px;
         padding: 24px;
-        margin-right: 24px;
+        margin-right: 40px;
         border-radius: 8px;
         background-color: #fff;
         min-width: 311px;
         box-shadow: 5px 5px 10px rgba(0,0,0,.07);
+        transition: 550ms;
+        &:hover {
+            box-shadow: 5px 5px 10px rgba(0,0,0,.7);
+        }
     }
 
 

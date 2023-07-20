@@ -1,3 +1,7 @@
+p {
+  margin: 0 !important;
+}
+
 .header {
   border-bottom: 1px solid gray;
   padding: 0 40px;
@@ -72,6 +76,7 @@ main .slider .main-slider p {
   color: rgba(0, 0, 0, 0.6);
 }
 main .slider .main-slider button {
+  margin-top: 40px;
   background: #058d66;
   color: #fff;
   background-position: 50%;
@@ -99,7 +104,7 @@ main .slider .arrow {
 }
 
 .card-section {
-  width: 60.5%;
+  width: 60%;
   margin: 56px auto 0 auto;
 }
 .card-section .card-section-title h4 {
@@ -115,11 +120,15 @@ main .slider .arrow {
   width: 368px;
   height: 296px;
   padding: 24px;
-  margin-right: 24px;
+  margin-right: 40px;
   border-radius: 8px;
   background-color: #fff;
   min-width: 311px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.07);
+  transition: 550ms;
+}
+.card-section .card:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 .card-section .card-icon {
   font-size: 40px;
@@ -159,4 +168,52 @@ main .slider .arrow {
   font-weight: 600;
   padding: 8px 0;
   text-decoration: none;
+}
+
+.footer-container {
+  width: 60%;
+  margin: 144px auto 0;
+  align-items: center;
+}
+.footer-container .footer-box {
+  width: 25%;
+}
+.footer-container img {
+  height: 56px;
+  width: auto;
+}
+.footer-container .phone-number, .footer-container .email {
+  padding: 16px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.footer-container .footer-main-prg {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.footer-container .footer-secondary-prg {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.6);
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
 }/*# sourceMappingURL=style.css.map */

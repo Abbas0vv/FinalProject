@@ -1,0 +1,45 @@
+.footer-container {
+    width: 60%;
+    margin: 144px auto 0;
+
+    align-items: center;
+
+    .footer-box {
+        width: 25%;
+    }
+    
+    img {
+        height: 56px;
+        width: auto;
+    }
+
+    .phone-number, .email {
+        padding: 16px;
+        color: rgba(0,0,0,.87);
+    }
+
+    .footer-main-prg {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: .25px;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        color: rgba(0,0,0,.87);
+    }
+
+    .footer-secondary-prg {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: .4px;
+        color: rgba(0,0,0,.6);
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+}
