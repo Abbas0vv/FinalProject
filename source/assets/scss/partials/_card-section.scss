@@ -1,0 +1,30 @@
+.card-section {
+    width: 60.5%;
+    margin:56px auto 0 auto;
+
+    .card-section-title {
+        h4 {
+            margin-bottom: 40px;
+            font-size: 32px;
+            line-height: 48px;
+            letter-spacing: .25px;
+            color: rgba(0,0,0,.87);
+            font-family: Gothic A1;
+            font-weight: 400;
+        }
+
+        .card {
+            width: 368px;
+            height: 296px;
+            padding: 24px;
+            margin-right: 24px;
+            border-radius: 8px;
+            background-color: #fff;
+            min-width: 311px;
+
+            i {
+                color: #058d66;
+            }
+        }
+    }
+}

@@ -44,4 +44,85 @@ div {
 .header button:hover {
   background-color: #0ec980;
   transition: 1s;
+}
+
+main .slider {
+  width: 100%;
+  height: 504px;
+  background-color: rgb(224, 243, 237);
+  background-image: url("/source/assets/media/img/sme slider 12 olan.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+main .slider .main-slider {
+  width: 100%;
+  padding-top: 104px;
+  margin-left: 351px;
+  margin-right: 351px;
+}
+main .slider .main-slider h3 {
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: unset !important;
+  margin-bottom: 24px;
+  font-weight: 400 !important;
+}
+main .slider .main-slider p {
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+main .slider .main-slider button {
+  background: #058d66;
+  color: #fff;
+  background-position: 50%;
+  min-width: 144px;
+  height: 56px;
+  padding: 16px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  text-align: center !important;
+  font-family: Gothic A1;
+  font-weight: 400;
+}
+main .slider .arrow {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  color: #058d66;
+}
+
+.card-section {
+  width: 60.5%;
+  margin: 56px auto 0 auto;
+}
+.card-section .card-section-title h4 {
+  margin-bottom: 40px;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Gothic A1;
+  font-weight: 400;
+}
+.card-section .card-section-title .card {
+  width: 368px;
+  height: 296px;
+  padding: 24px;
+  margin-right: 24px;
+  border-radius: 8px;
+  background-color: #fff;
+  min-width: 311px;
+}
+.card-section .card-section-title .card i {
+  color: #058d66;
 }/*# sourceMappingURL=style.css.map */
